@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #a3e542;
+  transition: all 0.5s ease;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.columns.two {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.columns.two .column {
+  flex: 1;
+  min-width: 0;
+}
+
+.image-column img {
+  width: 75%;
+  height: auto;
+  display: block;
+  box-shadow: rgba(0,0,0,0.15) 2px 2px 5px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .columns.two {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .columns.two .column {
+    width: 100%;
+  }
+
+  .image-column img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 100%;
+  width: 4.5em;
+  height: 4.5em;
+  line-height: 4.5em;
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0;
+}
+
+/* tablets */
+@media (min-width: 768px) {
+  .container {
+    padding: 0 32px;
+  }
+}
+
+/* laptops/desktops */
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+/* wide screens */
+@media (min-width: 1280px) {
+  .container {
+    padding: 0;
+  }
+}
+
+.dark {
+  background-color: #21344F;
+  color: #fff;
+}
+
+.light {
+  background-color: #fffcf9;
+  color: #21344F;
+}
+
+.primary {
+  height: 100dvh;
+  padding: 5em 0;
+}
+
+.secondary {
+  padding: 2em 0;
+}
+
+.logo {
+  margin: 1em auto;
+}
+
+.logo.small {
+  width: 150px;
+  height: auto;
+}
+
+.green {
+  background-color: #a3e542;
+}
+
+.icon-tray {
+  display: inline-flex;
+  padding: 0.5em 1em;
+  border-radius: 1.5em;
+  justify-content: center;
+  gap: 0.5em;
+  font-size: 1.5em;
+  margin: 1em auto;
+  background-color: rgba(0,0,0,0.15);
+}
