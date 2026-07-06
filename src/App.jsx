@@ -24,6 +24,7 @@ function App() {
         <p>
           NAPIT Approved | ECS Gold Card | 2391 Inspection & Testing | BS 7671 18th Edition
         </p>
+        <Logo src="/NAPIT_membership logo_ mono.svg" className="small"></Logo>
         <CTA color="green" text="Contact" url="#contact"></CTA>
       </Section>
       <Section title="Services" id="services" className="secondary light">

@@ -2,7 +2,7 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   margin: 0;
   padding: 0;
@@ -20,17 +20,17 @@ section {
 a {
   color: inherit;
   text-decoration: none;
+  transition: all 0.5s ease;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #a3e542;
-  transition: all 0.5s ease;
+  color: #21344F;
 }
 
 h1 {
   font-size: 4rem;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
 }
 
 .container {
@@ -120,7 +120,7 @@ h1 {
 
 .primary {
   height: 100dvh;
-  padding: 5em 0;
+  padding: 1em 0;
 }
 
 .secondary {
@@ -128,7 +128,7 @@ h1 {
 }
 
 .logo {
-  margin: 1em auto;
+  margin: 0.5em auto;
 }
 
 .logo.small {
