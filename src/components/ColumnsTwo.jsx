@@ -1,6 +1,6 @@
-function ColumnsTwo({ image, altText, children }) {
+function ColumnsTwo({ image, altText, orientation, children }) {
   return (
-    <div className="columns two">
+    <div className={`columns two ${orientation}`}>
       <div className="column image-column">
         <img src={image} alt={altText} />
       </div>
