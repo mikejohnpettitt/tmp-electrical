@@ -1,7 +1,7 @@
-function Logo({ src, className }) {
+function Logo({ src, className, altText = "" }) {
   return (
     <div className={`logo ${className}`}>
-      <img src={src} alt="TMP Electrical Logo" />
+      <img src={src} alt={altText} />
     </div>
   )
 }

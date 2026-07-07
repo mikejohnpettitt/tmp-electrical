@@ -1,4 +1,4 @@
-function Section({ children, id, className, bgImage }) {
+function Section({ children, id, className = "", bgImage }) {
   return (
     <section 
     id={id} 
